@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  web:
+    build: .                    # Construye el contenedor usando el Dockerfile
+    ports:
+      - "80:80"       
